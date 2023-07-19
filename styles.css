@@ -719,9 +719,9 @@ a{
   }
 
 /* Ravi Ranjan - 20/07/2023  */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
       .container{
-          width:760px;
+          width:100%;
           margin:0 auto;
       }
       .user-image{
@@ -736,7 +736,7 @@ a{
       }
       /* //projects-section */
       .project-container{
-        width: 750px;
+        width: 100%;
         margin: 0 auto;
       }
       /* //skills-section */
