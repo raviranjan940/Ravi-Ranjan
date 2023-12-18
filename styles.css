@@ -127,6 +127,10 @@ a{
     font-weight: 500;
 }
 
+.btn-pink a{
+  color: white;
+}
+
 .btn-pink {
     background-color: var(--bgOrange);
     width: fit-content;
@@ -144,7 +148,6 @@ a{
   .btn-pink::before {
     content: "";
     position: absolute;
-    color: white;
     background-color: #fff;
     top: 0px;
     left: 0;
