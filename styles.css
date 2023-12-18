@@ -144,6 +144,7 @@ a{
   .btn-pink::before {
     content: "";
     position: absolute;
+    color: white;
     background-color: #fff;
     top: 0px;
     left: 0;
