@@ -41,7 +41,7 @@
 
                     <div class="hero-sec-desc">I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.</div>
 
-                    <div class="btn-pink" id="btn"> <a href="https://drive.google.com/file/d/1z_EBs7u3u3oswtTmtCjyNrPcuCFsyCM1/view?usp=sharing">Hire me</a></div>
+                    <div class="btn-pink" id="hireMeBtn">Hire me</a></div>
                 </div>
 
                 <div class="hero-sec-right">
@@ -297,6 +297,9 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
   <script>
+    document.getElementById('hireMeBtn').addEventListener('click', function() {
+            window.open('https://drive.google.com/file/d/1Y1qph46jW62gePzuDHvkgP20DNottuti/view?usp=drive_link', '_blank');
+    });
     var typeData = new Typed(".role", {
       strings: [
         "Web Developer",
